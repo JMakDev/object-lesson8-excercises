@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Object excercise</title>
+</head>
+
+<body>
+
+    <script>
+
+        let product1 = {
+            name: 'baseball',
+            price: 300
+        }
+
+        let product2 = {
+            name: 'baseball',
+            price: 300
+        }
+
+        function isSameProduct(product1, product2) {
+            if (product1.name === product2.name && product1.price === product2.price) {
+                return true;
+            }
+        }
+
+        console.log(isSameProduct(product1, product2))
+
+        // turn the text to lowercase / uppercase
+        // let text = 'GOOD MORNING';
+
+        // let large = text.toLowerCase()
+        // let small = text.toUpperCase()
+        // console.log(large)
+        // console.log(small)
+
+        let text = 'bizzy'
+        let repeat = text.repeat(4)
+
+        console.log(repeat)
+    </script>
+</body>
+
+</html>
